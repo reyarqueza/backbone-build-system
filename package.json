@@ -1,0 +1,27 @@
+{
+  "name": "backbone-build-system",
+  "version": "1.0.0",
+  "description": "The backbone-build-system is a convenient mostly browserify setup so that you don't have to roll your own.",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server 'public' --files 'public/index.html,public/js/bundle.js'",
+    "dev": "watchify src/index.js --exclude jquery --outfile public/js/bundle.js --verbose --poll --debug",
+    "bundle": "browserify -p tinyify src/index.js --exclude jquery -o public/js/bundle.js",
+    "gzip": "rm ./public/js/bundle.js.gz; gzip -k -9 ./public/js/bundle.js; ls -l public/js",
+    "build": "npm run bundle; npm run gzip",
+    "start-prod": "http-server --gzip"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.1",
+    "browserify": "^17.0.0",
+    "http-server": "^14.1.1",
+    "tinyify": "^4.0.0",
+    "watchify": "^4.0.0"
+  },
+  "dependencies": {
+    "backbone": "^1.4.1",
+    "underscore": "^1.13.6"
+  }
+}
