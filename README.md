@@ -48,19 +48,13 @@ $ npm run build
 $ npm start-prod
 ```
 
----
-
 ## VS Code
 
 Colorize your underscore templates with [Underscore Template Colorizer](https://marketplace.visualstudio.com/items?itemName=Shinworks.tmplcolorizer).
 
----
-
 ## Backbone, The Primer
 
 I found this introductory helpful for those new to backbone.js or those in need of a refresher: [Backbone, The Primer](https://github.com/jashkenas/backbone/wiki/Backbone%2C-The-Primer)
-
----
 
 ## Official backbone.js sources
 
