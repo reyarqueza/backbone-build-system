@@ -1,5 +1,8 @@
-var Backbone = require("backbone");
-var header = require("./components/header");
+var HeaderView = require("./components/header");
+var CardView = require("./components/card");
 
-console.log(Backbone);
-console.log(header({ test: "testing24" }));
+var headerView = new HeaderView();
+var cardView = new CardView();
+
+headerView.render();
+cardView.render();

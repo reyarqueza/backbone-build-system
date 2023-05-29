@@ -17,11 +17,31 @@
     "browser-sync": "^2.29.1",
     "browserify": "^17.0.0",
     "http-server": "^14.1.1",
+    "node-underscorify": "^0.0.14",
     "tinyify": "^4.0.0",
     "watchify": "^4.0.0"
   },
   "dependencies": {
     "backbone": "^1.4.1",
+    "backbone.nativeview": "^0.3.4",
     "underscore": "^1.13.6"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "node-underscorify",
+        {
+          "extensions": [
+            "tmpl"
+          ],
+          "requires": [
+            {
+              "variable": "_",
+              "module": "underscore"
+            }
+          ]
+        }
+      ]
+    ]
   }
 }
