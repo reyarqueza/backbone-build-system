@@ -1,8 +1,11 @@
 var HeaderView = require("./components/header");
-var CardView = require("./components/card");
+var CardsView = require("./components/cards");
+var CoinListCollection = require("./models/coins/coin-list");
 
 var headerView = new HeaderView();
-var cardView = new CardView();
+
+var coinList = new CoinListCollection();
+var cardsView = new CardsView({ collection: coinList });
 
 headerView.render();
-cardView.render();
+cardsView.render();

@@ -4,8 +4,9 @@ The backbone build system provides a development environment to build backbone a
 
 1. Provide the capability of using CommonJS for your modules, minifying your JavaScript into a single bundle on save, and provide tiny production bundles (with [browserify](https://browserify.org/) and its plugins [tinyify](https://www.npmjs.com/package/tinyify) and [watchify](https://www.npmjs.com/package/watchify)).
 1. Browserify transform for \_.template to support stand alone \*.tmpl files with [node-underscorify](https://www.npmjs.com/package/node-underscorify).
-1. Use backbone [without jQuery](https://github.com/jashkenas/backbone/wiki/Using-Backbone-without-jQuery#without-jquery) (with [browserify](https://browserify.org/)'s exclude feature).
-1. Use [Backbone.NativeView](https://github.com/akre54/Backbone.NativeView) in place of Backbone.View.
+1. Use backbone [without jQuery](https://github.com/jashkenas/backbone/wiki/Using-Backbone-without-jQuery#without-jquery) (with [browserify](https://browserify.org/)'s exclude feature). Without jQuery you'll need these small changes:
+   1. Use [Backbone.NativeView](https://github.com/akre54/Backbone.NativeView) in place of Backbone.View.
+   1. Use [Backbone.NativeAjax](https://github.com/akre54/backbone.nativeajax) for Backbone.ajax.
 1. Mouse free browser refresh on file save (with [browsersync](https://browsersync.io/)).
 1. Serve gzip bundles so you can test your bundles in a simulated production environment (with [http-server](https://www.npmjs.com/package/http-server) and gzip). This can be useful when running [Lighthouse](https://developer.chrome.com/docs/lighthouse/).
 

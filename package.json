@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "backbone": "^1.4.1",
+    "backbone.nativeajax": "^0.4.4",
     "backbone.nativeview": "^0.3.4",
     "underscore": "^1.13.6"
   },
