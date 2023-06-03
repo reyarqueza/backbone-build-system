@@ -1,0 +1,112 @@
+[
+  {
+    "project_name": "Backbone.js",
+    "project_type": "main",
+    "description": "Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.",
+    "repository_url": "https://github.com/jashkenas/backbone",
+    "homepage": "https://backbonejs.org/",
+    "author": "Jeremy Ashkenas",
+    "avatar": "https://avatars.githubusercontent.com/u/4732?v=4",
+    "logo": "https://backbonejs.org/docs/images/backbone.png"
+  },
+  {
+    "project_name": "Underscore.js",
+    "project_type": "main",
+    "description": "Underscore is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects. Underscore provides over 100 functions that support both your favorite workaday functional helpers: map, filter, invoke — as well as more specialized goodies: function binding, javascript templating, creating quick indexes, deep equality testing, and so on.",
+    "repository_url": "https://github.com/jashkenas/underscore",
+    "homepage": "https://underscorejs.org/",
+    "author": "Jeremy Ashkenas",
+    "avatar": "https://avatars.githubusercontent.com/u/4732?v=4",
+    "logo": "https://underscorejs.org/docs/images/underscore.png"
+  },
+  {
+    "project_name": "browserify",
+    "project_type": "main",
+    "description": "Browserify lets you require('modules') in the browser by bundling up all of your dependencies. Use a node-style require() to organize your browser code and load modules installed by npm. browserify will recursively analyze all the require() calls in your app in order to build a bundle you can serve up to the browser in a single <script> tag.",
+    "repository_url": "https://github.com/browserify/browserify",
+    "homepage": "https://browserify.org/",
+    "author": "browserify",
+    "avatar": "https://avatars.githubusercontent.com/u/6320506?s=200&v=4",
+    "logo": "https://github.com/browserify/browserify/blob/master/assets/logo.png"
+  },
+  {
+    "project_name": "Browsersync",
+    "project_type": "main",
+    "description": "Time-saving synchronised browser testing. With each web page, device and browser, testing time grows exponentially. From live reloads to URL pushing, form replication to click mirroring, Browsersync cuts out repetitive manual tasks. It's like an extra pair of hands. Customise an array of sync settings from the UI or command line to create a personalised test environment. Need more control? Browsersync is easily integrated with your web platform, build tools, and other Node.js projects.",
+    "repository_url": "https://github.com/BrowserSync/browser-sync",
+    "homepage": "https://browsersync.io/",
+    "author": "Browsersync",
+    "avatar": "https://avatars.githubusercontent.com/u/10654171?s=200&v=4",
+    "logo": "https://raw.githubusercontent.com/BrowserSync/browsersync.github.io/master/public/img/logo-gh.png"
+  },
+  {
+    "project_name": "http-server",
+    "project_type": "main",
+    "description": "http-server is a simple, zero-configuration command-line static HTTP server. It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development and learning.",
+    "repository_url": "https://github.com/http-party/http-server",
+    "homepage": "https://github.com/http-party/http-server",
+    "author": "http ... PARTY!",
+    "avatar": "https://avatars.githubusercontent.com/u/10845406?s=200&v=4",
+    "logo": "https://avatars.githubusercontent.com/u/10845406?s=200&v=4"
+  },
+  {
+    "project_name": "Underscore Template Colorizer",
+    "project_type": "underscore",
+    "description": "This syntax colorizer is a simple extension of a stripped down version of sublime's html colorizer to provide some basic colorization to underscorejs's embedded javascript tags. Currently this extension targets <?js ... ?> format tags, following the pattern used in jsDoc templates (this literal is configurable in underscorejs). Left unchanged are the original sublime template's rules which will recognize default underscorejs templates as \"ruby\" code. This colorizer also includes patterns to \"ignore\" script tags with type=text/template",
+    "repository_url": "https://github.com/Shizen/tmplcolorizer",
+    "homepage": "https://marketplace.visualstudio.com/items?itemName=Shinworks.tmplcolorizer",
+    "author": "Shinworks",
+    "avatar": "https://avatars.githubusercontent.com/u/4529864?v=4",
+    "logo": "https://shinworks.gallerycdn.vsassets.io/extensions/shinworks/tmplcolorizer/0.0.8/1542084558056/Microsoft.VisualStudio.Services.Icons.Default"
+  },
+  {
+    "project_name": "node-underscorify",
+    "project_type": "browserify,underscore",
+    "description": "Underscore precompiler plugin for Browserify. require('my-underscore-template.tmpl')",
+    "repository_url": "https://github.com/maxparm/node-underscorify",
+    "homepage": "https://github.com/maxparm/node-underscorify",
+    "author": "Maxime Parmentier",
+    "avatar": "https://avatars.githubusercontent.com/u/221412?v=4",
+    "logo": "/images/github-mark.png"
+  },
+  {
+    "project_name": "tinyify",
+    "project_type": "browserify",
+    "description": "A browserify plugin that runs various optimizations, so you don't have to install them all manually. Makes your bundles tiny!",
+    "repository_url": "https://github.com/browserify/tinyify",
+    "homepage": "https://github.com/browserify/tinyify",
+    "author": "browserify",
+    "avatar": "https://avatars.githubusercontent.com/u/6320506?s=200&v=4",
+    "logo": "https://avatars.githubusercontent.com/u/6320506?s=200&v=4"
+  },
+  {
+    "project_name": "watchify",
+    "project_type": "browserify",
+    "description": "Watch mode for browserify builds. Update any source file and your browserify bundle will be recompiled on the spot.",
+    "repository_url": "https://github.com/browserify/watchify",
+    "homepage": "https://github.com/browserify/watchify",
+    "author": "browserify",
+    "avatar": "https://avatars.githubusercontent.com/u/6320506?s=200&v=4",
+    "logo": "https://avatars.githubusercontent.com/u/6320506?s=200&v=4"
+  },
+  {
+    "project_name": "backbone.nativeview",
+    "project_type": "backbone",
+    "description": "A drop-in replacement for Backbone.View that uses only native DOM methods for element selection and event delegation. It has no dependency on jQuery.",
+    "repository_url": "https://github.com/akre54/Backbone.NativeView",
+    "homepage": "https://github.com/akre54/Backbone.NativeView",
+    "author": "Adam Krebs",
+    "avatar": "https://avatars.githubusercontent.com/u/931368?v=4",
+    "logo": "/images/github-mark.png"
+  },
+  {
+    "project_name": "backbone.nativeajax",
+    "project_type": "backbone",
+    "description": "A drop-in replacement for Backbone.Ajax that uses only native XMLHttpRequest methods for sync. It has no dependency on jQuery.",
+    "repository_url": "https://github.com/akre54/Backbone.NativeAjax",
+    "homepage": "https://github.com/akre54/Backbone.NativeAjax",
+    "author": "Adam Krebs",
+    "avatar": "https://avatars.githubusercontent.com/u/931368?v=4",
+    "logo": "/images/github-mark.png"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "project_name": "Backbone.js",
+    "local_url": "/about/backbone",
+    "logo": "https://backbonejs.org/docs/images/backbone.png"
+  },
+  {
+    "project_name": "Underscore.js",
+    "local_url": "/about/underscore",
+    "logo": "https://underscorejs.org/docs/images/underscore.png"
+  },
+  {
+    "project_name": "browserify",
+    "local_url": "/about/browserify",
+    "logo": "https://github.com/browserify/browserify/blob/master/assets/logo.png"
+  },
+  {
+    "project_name": "Browsersync",
+    "local_url": "/about/browsersync",
+    "logo": "https://raw.githubusercontent.com/BrowserSync/browsersync.github.io/master/public/img/logo-gh.png"
+  },
+  {
+    "project_name": "http-server",
+    "local_url": "/about/http-server",
+    "logo": "https://avatars.githubusercontent.com/u/10845406?s=200&v=4"
+  },
+  {
+    "project_name": "Underscore Template Colorizer",
+    "local_url": "/about/underscore-template-colorizer",
+    "logo": "https://shinworks.gallerycdn.vsassets.io/extensions/shinworks/tmplcolorizer/0.0.8/1542084558056/Microsoft.VisualStudio.Services.Icons.Default"
+  },
+  {
+    "project_name": "node-underscorify",
+    "local_url": "/about/node-underscorify",
+    "logo": "/images/github-mark.png"
+  },
+  {
+    "project_name": "tinyify",
+    "local_url": "/about/tinyify",
+    "logo": "https://avatars.githubusercontent.com/u/6320506?s=200&v=4"
+  },
+  {
+    "project_name": "watchify",
+    "local_url": "/about/watchify",
+    "logo": "https://avatars.githubusercontent.com/u/6320506?s=200&v=4"
+  },
+  {
+    "project_name": "backbone.nativeview",
+    "local_url": "/about/backbone.nativeview",
+    "logo": "/images/github-mark.png"
+  },
+  {
+    "project_name": "backbone.nativeajax",
+    "local_url": "/about/backbone.nativeajax",
+    "logo": "/images/github-mark.png"
+  }
+]

@@ -1,6 +1,6 @@
-var HeaderView = require("./components/header");
-var CardsView = require("./components/cards");
-var CoinListCollection = require("./models/coins/coin-list");
+var HeaderView = require("./views/components/header");
+var CardsView = require("./views/components/cards");
+var CoinListCollection = require("./models/library-list");
 
 var headerView = new HeaderView();
 
