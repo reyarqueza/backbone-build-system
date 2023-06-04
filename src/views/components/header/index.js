@@ -10,6 +10,7 @@ module.exports = Backbone.NativeView.extend({
   },
   template: headerTmpl,
   render: function () {
+    this.el.textContent = "";
     this.el.insertAdjacentHTML(
       "beforeend",
       this.template({ test: "Hello World" })

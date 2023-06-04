@@ -12,10 +12,10 @@ module.exports = Backbone.NativeView.extend({
   },
   template: cardTmpl,
   render: function () {
-    // console.log(this.collection.toJSON());
+    this.el.textContent = "";
     this.el.insertAdjacentHTML(
       "beforeend",
-      this.template({ coinList: this.collection.toJSON() })
+      this.template({ projectList: this.collection.toJSON() })
     );
   },
 });
