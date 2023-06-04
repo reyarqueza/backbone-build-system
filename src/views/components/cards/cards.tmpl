@@ -1,9 +1,51 @@
-<% _.each(coinList, function(item) { %>
-<fieldset>
-<ul>
-  <li><%= item.project_name %></li>
-  <li><%= item.logo %></li>
-  <li><%= item.local_url %></li>
-</ul>
-</fieldset>
-<% }) %>
+<style>
+  body {
+    background: #0071b5;
+  }
+  .projects {
+    display: flex;
+  }
+  .project-icon {
+    background-color: #fff;
+    border-radius: 100px;
+    display: block;
+    padding:25px;
+  }
+  .project-icon img {
+    display: block;
+    margin: auto;
+    width: 120px;
+  }
+
+  /* irregulars */
+  a[href="/about/underscore"] {
+    background-color: #f8f8f8;
+  }
+
+  a[href="/about/backbone"] img {
+    width: 95px;
+    padding: 0 15px;
+  }
+
+  a[href="/about/http-server"] img {
+    width: 100px;
+    padding: 10px;
+  }
+
+  a[href="/about/browserify"],
+  a[href="/about/tinyify"],
+  a[href="/about/watchify"] {
+    padding: 35px 25px;
+  }
+</style>
+
+<div class="projects">
+  <% _.each(coinList, function(item) { %>
+    <div class="project">
+      <a class="project-icon" href="<%= item.local_url %>">
+        <img width="90" src="<%= item.logo %>" alt=""/>
+      </a>
+      <!-- <a href="<%= item.local_url %>"><%= item.project_name %></a>-->
+    </div>
+  <% }) %>
+</div>
