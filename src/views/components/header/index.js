@@ -6,7 +6,7 @@ Backbone.NativeView = require("backbone.nativeview");
 module.exports = Backbone.NativeView.extend({
   el: "#header",
   initialize: function () {
-    console.log("initialized");
+    this.render();
   },
   template: headerTmpl,
   render: function () {

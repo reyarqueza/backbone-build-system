@@ -1,5 +1,5 @@
-var _ = require("underscore");
 var cardTmpl = require("./cards.tmpl");
+var initBackboneRoutes = require("../../../helpers");
 var Backbone = require("backbone");
 Backbone.NativeView = require("backbone.nativeview");
 Backbone.ajax = require("backbone.nativeajax");
@@ -17,5 +17,6 @@ module.exports = Backbone.NativeView.extend({
       "beforeend",
       this.template({ projectList: this.collection.toJSON() })
     );
+    initBackboneRoutes();
   },
 });

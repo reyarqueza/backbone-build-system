@@ -59,7 +59,7 @@
 <div class="projects">
   <% _.each(projectList, function(item) { %>
     <div class="project">
-      <a class="project-icon" href="<%= item.local_url %>">
+      <a class="project-icon" data-backbone-route href="<%= item.local_url %>">
         <img width="90" src="<%= item.logo %>" alt=""/>
       </a>
       <!-- <a href="<%= item.local_url %>"><%= item.project_name %></a>-->
