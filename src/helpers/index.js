@@ -8,9 +8,10 @@ module.exports = function initBackboneRoutes() {
   _.each(document.querySelectorAll("[data-backbone-route]"), function (a) {
     console.log("a", a);
     a.addEventListener("click", function (event) {
-      console.log("click this.href", this.href);
+      console.log(this);
+      console.log("click this.getAttribute('href')", this.getAttribute("href"));
       event.preventDefault();
-      Backbone.history.navigate(this.href);
+      Backbone.history.navigate(this.getAttribute("href"));
     });
     console.log(a);
     console.log("------------------");
