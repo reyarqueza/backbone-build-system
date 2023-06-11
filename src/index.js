@@ -1,9 +1,12 @@
 var _ = require("underscore");
 var Backbone = require("backbone");
 
-// views
+// common component views
 var HeaderView = require("./views/components/header");
-var CardsView = require("./views/components/cards");
+var FooterView = require("./views/components/footer");
+
+// pageType views
+var HomePageView = require("./views/pages/home");
 
 // models
 var LibraryCollection = require("./models/library-collection");
@@ -16,16 +19,23 @@ var Router = Backbone.Router.extend({
   },
 });
 
+// instantiate common component views
+var headerView = new HeaderView();
+var footerView = new FooterView();
+
+// instantiate router
 var router = new Router();
 
-router.on("route:home", function () {
-  var headerView = new HeaderView();
-  var libraryList = new LibraryCollection();
-  var cardsView = new CardsView({ collection: libraryList });
+// render common component views
+headerView.render();
+footerView.render();
 
-  headerView.render();
-  cardsView.render();
-  console.log("DEBUG at home");
+// setup the router
+router.on("route:home", function () {
+  var libraryList = new LibraryCollection();
+  var homePageView = new HomePageView({ collection: libraryList });
+
+  homePageView.render();
 });
 
 router.on("route:library", function (name) {

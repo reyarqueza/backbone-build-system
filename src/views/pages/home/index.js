@@ -1,16 +1,16 @@
-var cardTmpl = require("./cards.tmpl");
+var homeTmpl = require("./home.tmpl");
 var initBackboneRoutes = require("../../../helpers");
 var Backbone = require("backbone");
 Backbone.NativeView = require("backbone.nativeview");
 Backbone.ajax = require("backbone.nativeajax");
 
 module.exports = Backbone.NativeView.extend({
-  el: "#card",
+  el: "main",
   initialize: function () {
     this.collection.fetch();
     this.listenTo(this.collection, "sync change", this.render);
   },
-  template: cardTmpl,
+  template: homeTmpl,
   render: function () {
     this.el.textContent = "";
     this.el.insertAdjacentHTML(
