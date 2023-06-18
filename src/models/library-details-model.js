@@ -12,9 +12,5 @@ var LibraryDetailsModel = Backbone.Model.extend({
   },
   url: "/json/details",
 });
-// var LibraryDetailsCollection = Backbone.Collection.extend({
-//   model: LibraryDetailsModel,
-//   url: "/json/details",
-// });
 
 module.exports = LibraryDetailsModel;
