@@ -1,12 +1,16 @@
 var homeTmpl = require("./home.tmpl");
-var initBackboneRoutes = require("../../../helpers");
 var Backbone = require("backbone");
+
+// helper
+var initBackboneRoutes = require("../../../helpers");
+
 Backbone.NativeView = require("backbone.nativeview");
 Backbone.ajax = require("backbone.nativeajax");
 
 module.exports = Backbone.NativeView.extend({
   el: "main",
-  initialize: function () {
+  initialize: function (options) {
+    this.router = options.router;
     this.collection.fetch();
     this.listenTo(this.collection, "sync change", this.render);
   },
@@ -17,6 +21,8 @@ module.exports = Backbone.NativeView.extend({
       "beforeend",
       this.template({ projectList: this.collection.toJSON() })
     );
-    initBackboneRoutes();
+    //console.log("this", this);
+    initBackboneRoutes(this.router);
+    console.log("in the home view");
   },
 });

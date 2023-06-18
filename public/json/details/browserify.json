@@ -1,0 +1,11 @@
+{
+  "id": "browserify",
+  "project_name": "browserify",
+  "project_type": "main",
+  "description": "Browserify lets you require('modules') in the browser by bundling up all of your dependencies. Use a node-style require() to organize your browser code and load modules installed by npm. browserify will recursively analyze all the require() calls in your app in order to build a bundle you can serve up to the browser in a single script tag.",
+  "repository_url": "https://github.com/browserify/browserify",
+  "homepage": "https://browserify.org/",
+  "author": "browserify",
+  "avatar": "https://avatars.githubusercontent.com/u/6320506?s=200&v=4",
+  "logo": "https://raw.githubusercontent.com/browserify/browserify/master/assets/logo.png"
+}

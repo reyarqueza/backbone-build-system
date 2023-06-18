@@ -1,0 +1,11 @@
+{
+  "id": "underscorejs",
+  "project_name": "Underscore.js",
+  "project_type": "main",
+  "description": "Underscore is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects. Underscore provides over 100 functions that support both your favorite workaday functional helpers: map, filter, invoke — as well as more specialized goodies: function binding, javascript templating, creating quick indexes, deep equality testing, and so on.",
+  "repository_url": "https://github.com/jashkenas/underscore",
+  "homepage": "https://underscorejs.org/",
+  "author": "Jeremy Ashkenas",
+  "avatar": "https://avatars.githubusercontent.com/u/4732?v=4",
+  "logo": "https://pbs.twimg.com/profile_images/1291726267327426561/2Wqch1MG_400x400.png"
+}

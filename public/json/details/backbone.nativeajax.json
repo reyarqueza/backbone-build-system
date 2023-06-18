@@ -1,0 +1,11 @@
+{
+  "id": "backbone-nativeajax",
+  "project_name": "backbone.nativeajax",
+  "project_type": "backbone",
+  "description": "A drop-in replacement for Backbone.Ajax that uses only native XMLHttpRequest methods for sync. It has no dependency on jQuery.",
+  "repository_url": "https://github.com/akre54/Backbone.NativeAjax",
+  "homepage": "https://github.com/akre54/Backbone.NativeAjax",
+  "author": "Adam Krebs",
+  "avatar": "https://avatars.githubusercontent.com/u/931368?v=4",
+  "logo": "/images/github-mark.png"
+}

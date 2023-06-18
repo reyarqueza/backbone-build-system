@@ -1,0 +1,11 @@
+{
+  "id": "backbonejs",
+  "project_name": "Backbone.js",
+  "project_type": "main",
+  "description": "Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.",
+  "repository_url": "https://github.com/jashkenas/backbone",
+  "homepage": "https://backbonejs.org/",
+  "author": "Jeremy Ashkenas",
+  "avatar": "https://avatars.githubusercontent.com/u/4732?v=4",
+  "logo": "https://backbonejs.org/docs/images/backbone.png"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "backbone-nativeview",
+  "project_name": "backbone.nativeview",
+  "project_type": "backbone",
+  "description": "A drop-in replacement for Backbone.View that uses only native DOM methods for element selection and event delegation. It has no dependency on jQuery.",
+  "repository_url": "https://github.com/akre54/Backbone.NativeView",
+  "homepage": "https://github.com/akre54/Backbone.NativeView",
+  "author": "Adam Krebs",
+  "avatar": "https://avatars.githubusercontent.com/u/931368?v=4",
+  "logo": "/images/github-mark.png"
+}

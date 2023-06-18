@@ -1,0 +1,10 @@
+{
+  "project_name": "watchify",
+  "project_type": "browserify",
+  "description": "Watch mode for browserify builds. Update any source file and your browserify bundle will be recompiled on the spot.",
+  "repository_url": "https://github.com/browserify/watchify",
+  "homepage": "https://github.com/browserify/watchify",
+  "author": "browserify",
+  "avatar": "https://avatars.githubusercontent.com/u/6320506?s=200&v=4",
+  "logo": "https://avatars.githubusercontent.com/u/6320506?s=200&v=4"
+}

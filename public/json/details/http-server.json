@@ -1,0 +1,11 @@
+{
+  "id": "http-server",
+  "project_name": "http-server",
+  "project_type": "main",
+  "description": "http-server is a simple, zero-configuration command-line static HTTP server. It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development and learning.",
+  "repository_url": "https://github.com/http-party/http-server",
+  "homepage": "https://github.com/http-party/http-server",
+  "author": "http ... PARTY!",
+  "avatar": "https://avatars.githubusercontent.com/u/10845406?s=200&v=4",
+  "logo": "https://avatars.githubusercontent.com/u/10845406?s=200&v=4"
+}

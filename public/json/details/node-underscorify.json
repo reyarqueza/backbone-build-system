@@ -1,0 +1,11 @@
+{
+  "id": "node-underscorify",
+  "project_name": "node-underscorify",
+  "project_type": "browserify,underscore",
+  "description": "Underscore precompiler plugin for Browserify. require('my-underscore-template.tmpl')",
+  "repository_url": "https://github.com/maxparm/node-underscorify",
+  "homepage": "https://github.com/maxparm/node-underscorify",
+  "author": "Maxime Parmentier",
+  "avatar": "https://avatars.githubusercontent.com/u/221412?v=4",
+  "logo": "/images/github-mark.png"
+}
