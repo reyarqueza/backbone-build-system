@@ -1,7 +1,48 @@
- <%= details.id %><br>
-  <%= details.project_name %><br>
-  <%= details.description %><br>
-  <%= details.homepage %><br>
-  <%= details.author %><br>
-  <img src="<%= details.avatar %>" alt="" /><br>
-    <img src="<%= details.logo %>" alt="" /><br>
+<style>
+  body {
+    padding: 25px 50px;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 25px;
+  }
+
+  img {
+    width: 300px;
+  }
+
+  img.author {
+    border-radius: 50px;
+    width: 100px;
+  }
+</style>
+<section id="details">
+  <div class="breadcrumb">
+    <a href="/">Home</a> > <%= details.id %>
+  </div>
+  <h2><%= details.project_name %></h2>
+  <p><%= details.description %></p>
+  <ul>
+    <li>
+      <img src="<%= details.logo %>" alt="" />
+      <a href="<%= details.homepage %>">  
+        <%= details.homepage %>
+      </a>
+    </li>
+    <li>
+      <img class="author" src="<%= details.avatar %>" alt="" />
+      Author: <%= details.author %>
+    </li>
+  </ul>
+</section>

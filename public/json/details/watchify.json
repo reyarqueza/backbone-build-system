@@ -1,4 +1,5 @@
 {
+  "id": "watchify",
   "project_name": "watchify",
   "project_type": "browserify",
   "description": "Watch mode for browserify builds. Update any source file and your browserify bundle will be recompiled on the spot.",
