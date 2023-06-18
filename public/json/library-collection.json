@@ -46,12 +46,12 @@
   },
   {
     "project_name": "backbone.nativeview",
-    "local_url": "/about/backbone.nativeview",
+    "local_url": "/about/backbone-nativeview",
     "logo": "/images/github-mark.png"
   },
   {
     "project_name": "backbone.nativeajax",
-    "local_url": "/about/backbone.nativeajax",
+    "local_url": "/about/backbone-nativeajax",
     "logo": "/images/github-mark.png"
   }
 ]
