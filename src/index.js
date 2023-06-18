@@ -34,7 +34,6 @@ footerView.render();
 
 // setup the router
 router.on("route:home", function () {
-  //console.log("route:home");
   var libraryList = new LibraryCollection();
   var homePageView = new HomePageView({
     collection: libraryList,
@@ -42,11 +41,9 @@ router.on("route:home", function () {
   });
 
   homePageView.render();
-  //initBackboneRoutes(router);
 });
 
 router.on("route:library", function (name) {
-  //console.log("route library name:", name);
   var libraryDetails = new LibraryDetailsModel();
   var aboutPageView = new AboutPageView({
     model: libraryDetails,
@@ -56,17 +53,12 @@ router.on("route:library", function (name) {
   libraryDetails.fetch({
     url: "/json/details/" + name + ".json",
     success: function (json) {
-      console.log("json", json);
       aboutPageView.render(json);
     },
     error: function (err) {
       console.log(err);
     },
   });
-});
-
-router.on("route:default", function () {
-  console.log("default ");
 });
 
 Backbone.history.start({ pushState: true, root: "" });

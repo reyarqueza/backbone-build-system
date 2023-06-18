@@ -11,12 +11,10 @@ module.exports = Backbone.NativeView.extend({
   },
   template: aboutTmpl,
   render: function () {
-    console.log("about - this.model.toJSON()", this.model.toJSON());
     this.el.textContent = "";
     this.el.insertAdjacentHTML(
       "beforeend",
       this.template({ details: this.model.toJSON() })
     );
-    console.log("in the about view");
   },
 });

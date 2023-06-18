@@ -21,8 +21,6 @@ module.exports = Backbone.NativeView.extend({
       "beforeend",
       this.template({ projectList: this.collection.toJSON() })
     );
-    //console.log("this", this);
     initBackboneRoutes(this.router);
-    console.log("in the home view");
   },
 });
